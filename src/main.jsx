@@ -9,7 +9,7 @@ const queryClient = new QueryClient();
 ReactDOM.createRoot(document.getElementById("root")).render(
   <MantineProvider withGlobalStyles withNormalizeCSS>
     <QueryClientProvider client={queryClient}>
-      <div className="grid place-content-center h-[100vh]">
+      <div className="flex justify-center items-center h-screen max-h-[852px]">
         <App />
       </div>
     </QueryClientProvider>

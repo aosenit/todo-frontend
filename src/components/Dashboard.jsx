@@ -145,7 +145,7 @@ const Dashboard = () => {
               editTodo: false,
             });
           }}
-          className="absolute  bottom-10 font-bold mt-5 shadow-md bg-[var(--primary-color)] hover:bg-white  text-white hover:text-[var(--primary-color)] w-[90%] h-[46px] hover:opacity-90 transition rounded-[32px]"
+          className="absolute  bottom-[10%] font-bold mt-5 shadow-md bg-[var(--primary-color)] hover:bg-white  text-white hover:text-[var(--primary-color)] w-[90%] h-[46px] hover:opacity-90 transition rounded-[32px]"
         >
           Create task
         </Button>

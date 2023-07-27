@@ -5,7 +5,7 @@ import Signup from "./page/Signup";
 
 function App() {
   return (
-    <div className="w-[383px] h-screen max-h-[852px] ">
+    <div className="w-[383px] h-screen max-h-[852px] overflow-hidden">
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Home />} />
